@@ -1,6 +1,6 @@
 {
   "name": "tkhooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Focuses on hooks to correlate common real-world business scenarios for development efficiency.",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
