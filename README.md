@@ -13,29 +13,21 @@ TODO
 
 TODO
 
-## Development
+## Usage
 
+#### install
 ```bash
 # install dependencies
-$ pnpm install
+$ npm i tkhooks
 
-# develop library by docs demo
-$ pnpm start
+```
 
-# build library source code
-$ pnpm run build
+#### use
+```jsx
+// use dependencies
+import { Foo } from 'tkhooks';
 
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# Locally preview the production build.
-$ pnpm run docs:preview
-
-# check your project for potential problems
-$ pnpm run doctor
+export default () => <Foo title="Hello" />
 ```
 
 ## LICENSE
