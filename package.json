@@ -17,8 +17,10 @@
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepublishOnly": "father doctor && npm run build",
-    "login": "npm login && npm whoami",
-    "publish": "npm publish"
+    "npm:login": "nrm use npm && npm login && npm whoami",
+    "npm:patch": "pnpm build && pnpm version patch && npm publish && nrm use taobao",
+    "npm:minor": "pnpm build && pnpm version minor && npm publish && nrm use taobao",
+    "npm:major": "pnpm build && pnpm version major && npm publish && nrm use taobao"
   },
   "authors": [
     "qone <1549792980@qq.com>"

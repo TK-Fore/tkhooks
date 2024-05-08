@@ -30,6 +30,17 @@ import { Foo } from 'tkhooks';
 export default () => <Foo title="Hello" />
 ```
 
+## publish
+```
+npm version patch
+npm publish
+```
+```
+patch：0.0.1->0.0.2
+minor：0.0.1->0.1.1
+major：0.0.1->1.0.1
+```
+
 ## LICENSE
 
 MIT
