@@ -3,6 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'tkhooks',
+    name: 'Tkhooks',
   },
+  mfsu: false
 });

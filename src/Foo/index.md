@@ -1,9 +1,9 @@
 # Foo
 
-This is an example component.
+This is an example compoadss ddentasca.
 
 ```jsx
 import { Foo } from 'tkhooks';
 
-export default () => <Foo title="Hello dumi!" />
+export default () => <Foo title="Hello" />
 ```
