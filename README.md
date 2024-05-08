@@ -7,14 +7,6 @@ Focuses on hooks to correlate common real-world business scenarios for developme
 
 ## Usage
 
-TODO
-
-## Options
-
-TODO
-
-## Usage
-
 #### install
 ```bash
 # install dependencies
@@ -40,6 +32,10 @@ patch：0.0.1->0.0.2
 minor：0.0.1->0.1.1
 major：0.0.1->1.0.1
 ```
+
+## Options
+
+TODO
 
 ## LICENSE
 
